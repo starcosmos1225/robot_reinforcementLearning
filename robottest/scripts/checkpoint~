@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/huxingyu/tool/catkin_ws/src/robottest/scripts/model.ckpt"
+all_model_checkpoint_paths: "/home/huxingyu/tool/catkin_ws/src/robottest/scripts/model.ckpt"
