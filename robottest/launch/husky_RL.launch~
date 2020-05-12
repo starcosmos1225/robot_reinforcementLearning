@@ -25,8 +25,8 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 -->
 <launch>
 
-  <arg name="world_name" default="$(find robottest)/worlds/random.world"/>
-  <!--<arg name="world_name" default="$(find robottest)/worlds/empty.world"/>-->
+  <!--<arg name="world_name" default="$(find robottest)/worlds/random.world"/>-->
+  <arg name="world_name" default="$(find robottest)/worlds/empty.world"/>
   <arg name="laser_enabled" default="$(optenv HUSKY_LASER_ENABLED true)"/>
   <arg name="ur5_enabled" default="$(optenv HUSKY_UR5_ENABLED false)"/>
   <arg name="kinect_enabled" default="$(optenv HUSKY_KINECT_ENABLED false)"/>
